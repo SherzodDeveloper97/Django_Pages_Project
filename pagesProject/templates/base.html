@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base fixed</title>
+</head>
+<body>
+<header>
+  <a href="{% url 'home' %}">Bosh sahifa</a>
+  <a href="{% url 'about' %}">Saytimiz haqida</a>
+  <a href="{% url 'service' %}">Service sahifa</a>
+  <a href="{% url 'contact' %}">Contact sahifa</a>
+</header>
+
+{% block content %}
+{% endblock content %}
+</body>
+</html>
